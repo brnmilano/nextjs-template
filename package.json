@@ -1,0 +1,38 @@
+{
+  "name": "shopping-cart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start -p 3004",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "axios": "^1.6.8",
+    "clsx": "^2.1.1",
+    "next": "14.2.3",
+    "primereact": "^10.6.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
+    "react-icons": "^5.2.0",
+    "react-input-mask": "^2.0.4",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.76.0",
+    "zod": "^3.23.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-input-mask": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5"
+  }
+}
