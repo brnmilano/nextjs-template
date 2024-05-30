@@ -44,6 +44,12 @@ $breakpoint-xl: 1200px; // Extra large, for large monitors
   padding-top: 100px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   background-color: var(--background);
   width: 100%;
@@ -55,6 +61,7 @@ body {
   overflow-x: hidden;
   color: var(--text);
   background-color: transparent !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
